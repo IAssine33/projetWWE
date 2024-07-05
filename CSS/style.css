@@ -18,3 +18,46 @@ header{
 .logo{
     width: 100%;
 }
+
+img{
+    width: 100%;
+}
+.absolute{
+    position: absolute;
+    z-index: 1000;
+    bottom: -60px;
+    left: 30px;
+}
+.bande{
+    position: relative;
+    
+}
+
+.bande::after{
+    content:"";
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 20px;
+    background-color: black;
+    width: 100%;
+
+}
+
+.bande::before{
+    content:"";
+    position: absolute;
+    bottom:0;
+    left: 0;
+    height: 20px;
+    background-color: black;
+    width: 100%;
+
+}
+
+.articleAbsolute{
+    height: 150px;
+    position: absolute;
+    bottom: 0;
+
+}
