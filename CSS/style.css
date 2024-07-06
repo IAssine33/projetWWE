@@ -61,3 +61,10 @@ img{
     bottom: 0;
 
 }
+.wButton{
+    width: 40%;
+}
+
+button{
+    width: 100%;
+}
